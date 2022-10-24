@@ -29,27 +29,49 @@ div.left-content>img {
     bottom: 0px;
     text-align: center;
     width: 100%;
+    font-size: 2vmin;
 }
 
 div.right-content {
     background-color: white;
     display: flex;
     flex-direction: column;
-    /*background-color: #120a12;*/
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    background-color: #120a12;
     flex: 1;
+}
+
+.inspirational-text {
+    font-size: 4vmin;
+    padding-bottom: 3vmin;
+    color: white;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    gap: 3vmin;
+    width: 100%;
+    align-items: center;
+    padding: 4vmin;
+    box-sizing: border-box;
 }
 
 .first-last-name,.contact-information,.password-confirm-password {
     display: flex;
+    gap: 5vmin;
+    color:white;
 }
 
 .first-name,.last-name,.email,.phone,.password,.confirm-password {
     display: flex;
     flex-direction: column;
+    font-size: 2vmin;
+}
+
+input {
+    width: 25vmin;
+    height: 3vmin;
 }
