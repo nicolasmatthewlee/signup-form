@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+    height: 100%;
+}
+
+div.left-content {
+    height: 100%;
+    background-color: yellow;
+}
+
+div.left-content>img {
+    height: 100%;
+    display: block;
+}
