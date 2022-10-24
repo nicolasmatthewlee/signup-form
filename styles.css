@@ -114,6 +114,12 @@ button.create-account {
     color:white;
 }
 
+.passwords-do-not-match {
+    color: red;
+    font-style: italic;
+    visibility: hidden;
+}
+
 button.create-account:hover {
     background-color: darkblue;
     color:white
