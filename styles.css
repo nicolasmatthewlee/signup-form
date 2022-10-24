@@ -86,6 +86,11 @@ input {
     font-size: 2vmin;
 }
 
+input:focus {
+    outline: 0.3vmin solid blue;
+    background-color: lightgray;
+}
+
 div.create-account {
     padding-top: 1vmin;
     display: flex;
