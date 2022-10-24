@@ -7,11 +7,27 @@ tel_input.addEventListener('keyup',(event) => {
             tel_input.value+='-';
         }
     }
-})
+});
 
 // prevent user from adding hyphens
 tel_input.addEventListener('keypress',(event) => {
     if (!'1234567890'.includes(event.key)) {
         event.preventDefault();
     }
-})
+});
+
+
+// check that passwords match
+
+const password = document.querySelector('#password');
+const confirm_password = document.querySelector('#confirm-password');
+
+confirm_password.addEventListener('keyup', event => {
+    if (password.value==confirm_password.value) {
+        confirm_password.style.bordercolor = 'rgb(0,255,0)';
+        confirm_password.style.outlineColor = 'rgb(0,255,0)';
+    } else {
+        confirm_password.style.bordercolor = 'auto';
+        confirm_password.style.outlineColor = 'white';
+    }
+});
