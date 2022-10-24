@@ -67,6 +67,7 @@ form {
     color:white;
     font-family: 'Roboto Mono', monospace;
     font-size: 1.8vmin;
+    position: relative;
 }
 
 .first-name,.last-name,.email,.phone,.password,.confirm-password {
@@ -121,7 +122,10 @@ button.create-account {
     color: red;
     font-style: italic;
     visibility: hidden;
-    font-size: 2vmin;
+    font-size: 1.5vmin;
+    position: absolute;
+    bottom: -2.3vmin;
+    left: 20vmin;
 }
 
 button.create-account:hover {
