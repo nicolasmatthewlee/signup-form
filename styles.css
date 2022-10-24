@@ -86,11 +86,11 @@ input {
     font-size: 2vmin;
 }
 
-input:valid {
+input:not(#confirm-password):valid {
     border-color: rgb(0,255,0);
 }
 
-input:focus {
+input:not(#confirm-password):focus,input:focus {
     outline: 0.2vmin solid white;
     background-color: lightgray;
     border-color: white;
