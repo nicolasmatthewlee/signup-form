@@ -94,7 +94,6 @@ input:focus {
 }
 
 div.create-account {
-    padding-top: 1vmin;
     display: flex;
     gap: 7vmin;
     position: relative;
@@ -118,6 +117,7 @@ button.create-account {
     color: red;
     font-style: italic;
     visibility: hidden;
+    font-size: 2vmin;
 }
 
 button.create-account:hover {
