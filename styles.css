@@ -91,6 +91,10 @@ input:focus {
     background-color: lightgray;
 }
 
+input:valid {
+    border-color: rgb(0,255,0);
+}
+
 div.create-account {
     padding-top: 1vmin;
     display: flex;
